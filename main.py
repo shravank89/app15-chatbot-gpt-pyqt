@@ -20,7 +20,7 @@ class MainWindow(QMainWindow):
 
         self.text_box = QLineEdit(self)
         self.text_box.setGeometry(10, 340, 480, 40)
-        self.text_box.setPlaceholderText("Hey, How can I help you today?")
+        self.text_box.setPlaceholderText("Hey I am Chatterbot, How can I help you today?")
         self.text_box.returnPressed.connect(self.send_chat)
 
         self.send_button = QPushButton(self)
