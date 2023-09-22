@@ -1,6 +1,7 @@
 import openai
 import os
 
+# Enter your API here
 API_KEY = os.getenv("OPENAI_API")
 
 
